@@ -1,0 +1,199 @@
+{
+  id: '18708',
+  name: 'Production Address Lookup Service Data (Package)',
+  url: 'https://api.os.uk/downloads/v1/dataPackages/18708',
+  createdOn: '2026-02-24',
+  productId: 'NGDAD',
+  productName: 'OS NGD Recipe: Production Address Lookup Service Data',
+  versions: [
+    {
+      id: '123829',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/123829',
+      createdOn: '2026-03-16',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-03-16',
+      format: 'CSV'
+    },
+    {
+      id: '123649',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/123649',
+      createdOn: '2026-03-15',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-03-15',
+      format: 'CSV'
+    },
+    {
+      id: '123607',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/123607',
+      createdOn: '2026-03-14',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-03-14',
+      format: 'CSV'
+    },
+    {
+      id: '123462',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/123462',
+      createdOn: '2026-03-13',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-03-13',
+      format: 'CSV'
+    },
+    {
+      id: '123337',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/123337',
+      createdOn: '2026-03-12',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-03-12',
+      format: 'CSV'
+    },
+    {
+      id: '123182',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/123182',
+      createdOn: '2026-03-11',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-03-11',
+      format: 'CSV'
+    },
+    {
+      id: '122969',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/122969',
+      createdOn: '2026-03-10',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-03-10',
+      format: 'CSV'
+    },
+    {
+      id: '122881',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/122881',
+      createdOn: '2026-03-09',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-03-09',
+      format: 'CSV'
+    },
+    {
+      id: '122739',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/122739',
+      createdOn: '2026-03-08',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-03-08',
+      format: 'CSV'
+    },
+    {
+      id: '122624',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/122624',
+      createdOn: '2026-03-07',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-03-07',
+      format: 'CSV'
+    },
+    {
+      id: '122452',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/122452',
+      createdOn: '2026-03-06',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-03-06',
+      format: 'CSV'
+    },
+    {
+      id: '122311',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/122311',
+      createdOn: '2026-03-05',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-03-05',
+      format: 'CSV'
+    },
+    {
+      id: '122180',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/122180',
+      createdOn: '2026-03-04',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-03-04',
+      format: 'CSV'
+    },
+    {
+      id: '122057',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/122057',
+      createdOn: '2026-03-03',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-03-03',
+      format: 'CSV'
+    },
+    {
+      id: '121918',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/121918',
+      createdOn: '2026-03-02',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-03-02',
+      format: 'CSV'
+    },
+    {
+      id: '121754',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/121754',
+      createdOn: '2026-03-01',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-03-01',
+      format: 'CSV'
+    },
+    {
+      id: '120592',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/120592',
+      createdOn: '2026-02-28',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-02-28',
+      format: 'CSV'
+    },
+    {
+      id: '120477',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/120477',
+      createdOn: '2026-02-27',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-02-27',
+      format: 'CSV'
+    },
+    {
+      id: '120364',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/120364',
+      createdOn: '2026-02-26',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-02-26',
+      format: 'CSV'
+    },
+    {
+      id: '120218',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/120218',
+      createdOn: '2026-02-25',
+      reason: 'UPDATE',
+      supplyType: 'COU',
+      productVersion: '2026-02-25',
+      format: 'CSV'
+    },
+    {
+      id: '120117',
+      url: 'https://api.os.uk/downloads/v1/dataPackages/18708/versions/120117',
+      createdOn: '2026-02-24',
+      reason: 'INITIAL',
+      supplyType: 'FULL',
+      productVersion: '2026-02-24',
+      format: 'CSV'
+    }
+  ]
+}

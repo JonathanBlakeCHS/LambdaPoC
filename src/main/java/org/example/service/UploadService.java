@@ -13,7 +13,6 @@ import software.amazon.awssdk.core.exception.RetryableException;
 import software.amazon.awssdk.core.sync.RequestBody;
 import software.amazon.awssdk.services.s3.S3AsyncClient;
 import software.amazon.awssdk.services.s3.S3Client;
-import software.amazon.awssdk.services.s3.model.AbortMultipartUploadRequest;
 import software.amazon.awssdk.services.s3.model.CompletedMultipartUpload;
 import software.amazon.awssdk.services.s3.model.CompletedPart;
 import software.amazon.awssdk.services.s3.model.CreateMultipartUploadResponse;
@@ -130,7 +129,7 @@ public class UploadService {
      *
      * @param download metadata of file to be downloaded
      */
-    public CompletableFuture<PutObjectResponse> transfer_C(Downloads download) {
+    public CompletableFuture<PutObjectResponse> transfer_c(Downloads download) {
         //noinspection ConstantValue
         if (true) {
             throw new RuntimeException("This code will fail and is just included for others to see solutions I've looked at already");

@@ -79,10 +79,9 @@ public class DownloadService {
 
     public List<File> downloadCSV() {
         System.out.println("In Download Service");
-        String urlString = "https://api.os.uk/downloads/v1/dataPackages/" + DATA_PACKAGE_ID;
-//        URL url = java.net.URI.create(urlString).toURL();
-
         return downloadWithRestTemplate();
+//        String urlString = "https://api.os.uk/downloads/v1/dataPackages/" + DATA_PACKAGE_ID;
+//        URL url = java.net.URI.create(urlString).toURL();
 //        canItBeThisEasy(url);///???
 //        downloadWithFileChannels(url, false);
 //        return Paths.get(FILE_NAME).toFile();

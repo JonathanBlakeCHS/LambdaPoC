@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.Map;
 import java.util.function.Function;
 
+//@Configuration // Suppressed while I try and figure out the InvokerFunction Catalog exception
 public class InvokerConfig {
     @Autowired
     BulkDownloadHandler bulkDownloadHandler;

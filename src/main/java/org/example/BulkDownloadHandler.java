@@ -31,10 +31,6 @@ public class BulkDownloadHandler implements RequestHandler<Map<String, String>, 
         ctx.getAutowireCapableBeanFactory().autowireBean(this);
     }
 
-    public static void main(String[] args) {
-        BulkDownloadHandler bdh = new BulkDownloadHandler();
-    }
-
     @SuppressWarnings("DataFlowIssue")// Using switch to enable and disable different bits of logic
     public String handleRequest(Map<String, String> event, Context context) {
         System.out.println("Handling request " + event + "  " + context);

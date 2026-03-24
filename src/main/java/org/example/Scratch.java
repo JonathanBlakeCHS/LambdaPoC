@@ -18,6 +18,7 @@ import java.net.URI;
 import java.net.URL;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
 @SuppressWarnings({"CommentedOutCode", "UnusedAssignment"})
 public class Scratch {
@@ -41,20 +42,20 @@ public class Scratch {
 //            System.out.println(version);
 //        }
         DataPackage serviceDataBody = serviceData.getBody();
-        for (Downloads version : serviceDataBody.downloads()) {
+        for (Downloads version : Objects.requireNonNull(serviceDataBody).downloads()) {
             System.out.println(version);
         }
         Downloads download = serviceDataBody.downloads()[0];
         System.out.println(Arrays.toString(getNextBytes(download, 0, 100)));
     }
 
-
     /**
      * Throws a 400 error for some reason
-     * @param download
-     * @param position
-     * @param multipartSize
-     * @return
+     * Local testing function to try and figure out behaviour of getNextBytes for the upload service
+     * @param download metadata surround file to be partitioned and downloaded
+     * @param position starting position
+     * @param multipartSize size of partition to be downloaded
+     * @return list of bytes
      * @throws IOException
      */
     public static byte[] getNextBytes(Downloads download, int position, int multipartSize) throws IOException {
@@ -72,6 +73,15 @@ public class Scratch {
         return httpConnection.getInputStream().readAllBytes();
     }
 
+    /**
+     * Throws a 400 error for some reason
+     * Local testing function to try and figure out behaviour of getNextBytes for the upload service
+     * @param download metadata surround file to be partitioned and downloaded
+     * @param position starting position
+     * @param multipartSize size of partition to be downloaded
+     * @return list of bytes
+     * @throws IOException
+     */
     public static byte[] getNextBytesRestTemplate(Downloads download, int position, int multipartSize) {
         RestTemplate restTemplate = new HTTPConfig().getRestTemplate();
 

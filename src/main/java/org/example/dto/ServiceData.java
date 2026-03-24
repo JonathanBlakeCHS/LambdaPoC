@@ -12,9 +12,9 @@ public record ServiceData(
         @JsonProperty String createdOn,
         @JsonProperty String productId,
         @JsonProperty String productName,
-        DataPackageSummary[] versions
+        @JsonProperty DataPackageSummary[] versions
 ) {
-    private final static DateTimeFormatter createdOnFormat = DateTimeFormatter.ofPattern("dd-mm-yyyy");
+    private final static DateTimeFormatter createdOnFormat = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 
     public Instant getCreatedOnAsInstant() {
         return Instant.from(createdOnFormat.parse(createdOn));

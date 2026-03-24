@@ -17,7 +17,7 @@ public record DataPackageSummary(
         @JsonProperty String productVersion,
         @JsonProperty DataFormat format
 ) {
-    private final static DateTimeFormatter createdOnFormat = DateTimeFormatter.ofPattern("yyyy-mm-dd");
+    private final static DateTimeFormatter createdOnFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
     public Instant getCreatedOnAsInstant() {
         return Instant.from(createdOnFormat.parse(createdOn));
